@@ -49,7 +49,7 @@ body {
     font-weight: 900;
 }
 
-.hero-text, .right-links, a {
+.hero-text, .right-links, .footer, a {
     color: #e5e7eb;;
     font-size: 18px;
 }
@@ -80,10 +80,33 @@ button {
 .mid-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .info-cards-section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 80px;
+    gap: 32px;
+}
+
+.info-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-cards {
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    gap: 52px;
+}
+
+.card {
+    max-width: 200px;
 }
 
 .info-box {
@@ -94,8 +117,16 @@ button {
 }
 
 .quote-box {
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+}
+
+.quote-text {
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
 }
 
 .bottom-section {
@@ -105,11 +136,13 @@ button {
 
 .bottom-signup {
     display: flex;
-
 }
 
 .footer {
-    /* justify-content: center; */
+    background-color: #4b1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
