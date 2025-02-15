@@ -1,8 +1,115 @@
-.box {
+body {
+    /* height: 100vh; */
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    /* padding-left: 128px;
+    padding-right: 128px; */
+}
+
+.top-section {
+    background-color: #4b1d1d;
+    display: flex;
+    flex-direction: column;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.right-links {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-container {
+    display: flex;
+    gap: 32px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text, .right-links, a {
+    color: #e5e7eb;;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    color: #f9faf8;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    padding: 8px 16px;
+}
+
+.right-section {
+    display: flex; /* might not need flex here*/
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-cards-section {
+    display: flex;
+}
+
+.info-box {
     width: 200px;
     height: 100px;
     border: 2px solid rgb(0, 94, 255);
     border-radius: 10px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-signup {
+    display: flex;
+
+}
+
+.footer {
+    /* justify-content: center; */
 }
 
 ul {
@@ -11,6 +118,5 @@ ul {
     margin: 0px;
 }
 
-a {
-    text-decoration: none;
-}
+
+  
