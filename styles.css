@@ -1,12 +1,10 @@
 body {
-    /* height: 100vh; */
+    height: 100vh;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0px;
-    /* padding-left: 128px;
-    padding-right: 128px; */
 }
 
 .top-section {
@@ -15,6 +13,7 @@ body {
     flex-direction: column;
     padding-left: 128px;
     padding-right: 128px;
+    padding-bottom: 128px;
 }
 
 .header {
@@ -43,38 +42,41 @@ body {
     flex-direction: column;
 }
 
+.right-section {
+
+}
+
+.hero-image {
+    width: 400px;
+    height: auto;
+}
+
 .hero-title {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
 }
 
-.hero-text, .right-links, .footer, a {
+.hero-text, .right-links, .signup-text, .footer, a {
     color: #e5e7eb;;
     font-size: 18px;
+    font-weight:100;
 }
 
 a {
     text-decoration: none;
+    margin: 0px;
 }
 
 button {
     color: #f9faf8;
     font-family: Roboto, sans-serif;
-    font-weight: bold;
+    font-weight:600;
     border: none;
     border-radius: 8px;
     background: #3882f6;
     padding: 8px 16px;
-}
-
-.right-section {
-    display: flex; /* might not need flex here*/
-}
-
-.hero-image {
-    max-width: 100%;
-    height: auto;
+    margin: 0px;
 }
 
 .mid-section {
@@ -100,7 +102,6 @@ button {
 
 .info-cards {
     display: flex;
-    /* align-items: center; */
     text-align: center;
     gap: 52px;
 }
@@ -130,7 +131,6 @@ button {
     font-style: italic;
     font-stretch: expanded;
     padding: 80px;
-    /* text-wrap */
 }
 
 .quote-author {
@@ -145,7 +145,26 @@ button {
 }
 
 .bottom-signup {
+    color: #f9faf8;
+    background-color: #3882f6;
     display: flex;
+    flex-shrink: 0;
+    justify-content:space-between;
+    align-items: center;
+    padding: 32px 80px;
+    margin: 100px 200px;
+    border-radius: 8px;
+}
+
+.signup-title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bottom-signup-right {
+    border: #f9faf8 solid 2px;
+    border-radius: 8px;
 }
 
 .footer {
@@ -153,6 +172,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 ul {
@@ -160,6 +181,3 @@ ul {
     padding: 0px;
     margin: 0px;
 }
-
-
-  
