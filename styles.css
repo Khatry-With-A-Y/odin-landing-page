@@ -19,6 +19,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    padding-top: 16px;
     margin-bottom: 80px;
 }
 
@@ -34,20 +35,22 @@ body {
 
 .hero-container {
     display: flex;
-    gap: 32px;
+    gap: 250px;
 }
 
 .left-section {
     display: flex;
     flex-direction: column;
+    max-width: 700px;
+    gap: 8px;
 }
 
-.right-section {
-
+.hero-text {
+    max-width: 450px;
 }
 
 .hero-image {
-    width: 400px;
+    width: 350px; /*400*/
     height: auto;
 }
 
