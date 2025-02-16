@@ -120,6 +120,7 @@ button {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    padding: 128px 256px;
 }
 
 .quote-text {
@@ -127,6 +128,15 @@ button {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
+    font-stretch: expanded;
+    padding: 80px;
+    /* text-wrap */
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+    padding-right: 100px;
 }
 
 .bottom-section {
